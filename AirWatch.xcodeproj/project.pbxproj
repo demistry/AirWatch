@@ -11,9 +11,12 @@
 		34661854245F1653007E135F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34661852245F1653007E135F /* Interface.storyboard */; };
 		34661856245F1656007E135F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34661855245F1656007E135F /* Assets.xcassets */; };
 		3466185D245F1656007E135F /* AirWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		34661862245F1656007E135F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661861245F1656007E135F /* InterfaceController.swift */; };
 		34661864245F1656007E135F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661863245F1656007E135F /* ExtensionDelegate.swift */; };
 		34661866245F1656007E135F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34661865245F1656007E135F /* Assets.xcassets */; };
+		34661878245F1809007E135F /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 34661876245F1809007E135F /* Flights.json */; };
+		34661879245F18C8007E135F /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 34661876245F1809007E135F /* Flights.json */; };
+		3466187A245F18E0007E135F /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661877245F1809007E135F /* Flight.swift */; };
+		3466187C245F1D90007E135F /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466187B245F1D90007E135F /* FlightInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,10 +68,12 @@
 		34661855245F1656007E135F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34661857245F1656007E135F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AirWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		34661861245F1656007E135F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
 		34661863245F1656007E135F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		34661865245F1656007E135F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		34661867245F1656007E135F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34661876245F1809007E135F /* Flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Flights.json; sourceTree = "<group>"; };
+		34661877245F1809007E135F /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
+		3466187B245F1D90007E135F /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		34661842245F1653007E135F = {
 			isa = PBXGroup;
 			children = (
+				34661875245F1809007E135F /* Shared */,
 				34661851245F1653007E135F /* AirWatch WatchKit App */,
 				34661860245F1656007E135F /* AirWatch WatchKit Extension */,
 				3466184A245F1653007E135F /* Products */,
@@ -114,12 +120,21 @@
 		34661860245F1656007E135F /* AirWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				34661861245F1656007E135F /* InterfaceController.swift */,
 				34661863245F1656007E135F /* ExtensionDelegate.swift */,
 				34661865245F1656007E135F /* Assets.xcassets */,
 				34661867245F1656007E135F /* Info.plist */,
+				3466187B245F1D90007E135F /* FlightInterfaceController.swift */,
 			);
 			path = "AirWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		34661875245F1809007E135F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				34661876245F1809007E135F /* Flights.json */,
+				34661877245F1809007E135F /* Flight.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +237,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34661878245F1809007E135F /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34661866245F1656007E135F /* Assets.xcassets in Resources */,
+				34661879245F18C8007E135F /* Flights.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,7 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				34661864245F1656007E135F /* ExtensionDelegate.swift in Sources */,
-				34661862245F1656007E135F /* InterfaceController.swift in Sources */,
+				3466187C245F1D90007E135F /* FlightInterfaceController.swift in Sources */,
+				3466187A245F18E0007E135F /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
