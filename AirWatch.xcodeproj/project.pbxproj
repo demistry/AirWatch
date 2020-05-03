@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3466184E245F1653007E135F /* AirWatch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3466184D245F1653007E135F /* AirWatch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34661854245F1653007E135F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34661852245F1653007E135F /* Interface.storyboard */; };
+		34661856245F1656007E135F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34661855245F1656007E135F /* Assets.xcassets */; };
+		3466185D245F1656007E135F /* AirWatch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		34661862245F1656007E135F /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661861245F1656007E135F /* InterfaceController.swift */; };
+		34661864245F1656007E135F /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661863245F1656007E135F /* ExtensionDelegate.swift */; };
+		34661866245F1656007E135F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34661865245F1656007E135F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3466184F245F1653007E135F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34661843245F1653007E135F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3466184C245F1653007E135F;
+			remoteInfo = "AirWatch WatchKit App";
+		};
+		3466185E245F1656007E135F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34661843245F1653007E135F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3466185B245F1656007E135F;
+			remoteInfo = "AirWatch WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3466186D245F1656007E135F /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3466185D245F1656007E135F /* AirWatch WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34661871245F1656007E135F /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3466184E245F1653007E135F /* AirWatch WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		34661849245F1653007E135F /* AirWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3466184D245F1653007E135F /* AirWatch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AirWatch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34661853245F1653007E135F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		34661855245F1656007E135F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34661857245F1656007E135F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AirWatch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34661861245F1656007E135F /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		34661863245F1656007E135F /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		34661865245F1656007E135F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34661867245F1656007E135F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34661859245F1656007E135F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34661842245F1653007E135F = {
+			isa = PBXGroup;
+			children = (
+				34661851245F1653007E135F /* AirWatch WatchKit App */,
+				34661860245F1656007E135F /* AirWatch WatchKit Extension */,
+				3466184A245F1653007E135F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3466184A245F1653007E135F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34661849245F1653007E135F /* AirWatch.app */,
+				3466184D245F1653007E135F /* AirWatch WatchKit App.app */,
+				3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34661851245F1653007E135F /* AirWatch WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				34661852245F1653007E135F /* Interface.storyboard */,
+				34661855245F1656007E135F /* Assets.xcassets */,
+				34661857245F1656007E135F /* Info.plist */,
+			);
+			path = "AirWatch WatchKit App";
+			sourceTree = "<group>";
+		};
+		34661860245F1656007E135F /* AirWatch WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				34661861245F1656007E135F /* InterfaceController.swift */,
+				34661863245F1656007E135F /* ExtensionDelegate.swift */,
+				34661865245F1656007E135F /* Assets.xcassets */,
+				34661867245F1656007E135F /* Info.plist */,
+			);
+			path = "AirWatch WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34661848245F1653007E135F /* AirWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34661872245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch" */;
+			buildPhases = (
+				34661847245F1653007E135F /* Resources */,
+				34661871245F1656007E135F /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34661850245F1653007E135F /* PBXTargetDependency */,
+			);
+			name = AirWatch;
+			productName = AirWatch;
+			productReference = 34661849245F1653007E135F /* AirWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3466184C245F1653007E135F /* AirWatch WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3466186E245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch WatchKit App" */;
+			buildPhases = (
+				3466184B245F1653007E135F /* Resources */,
+				3466186D245F1656007E135F /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3466185F245F1656007E135F /* PBXTargetDependency */,
+			);
+			name = "AirWatch WatchKit App";
+			productName = "AirWatch WatchKit App";
+			productReference = 3466184D245F1653007E135F /* AirWatch WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		3466185B245F1656007E135F /* AirWatch WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3466186A245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch WatchKit Extension" */;
+			buildPhases = (
+				34661858245F1656007E135F /* Sources */,
+				34661859245F1656007E135F /* Frameworks */,
+				3466185A245F1656007E135F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AirWatch WatchKit Extension";
+			productName = "AirWatch WatchKit Extension";
+			productReference = 3466185C245F1656007E135F /* AirWatch WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34661843245F1653007E135F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "TQG Digital";
+				TargetAttributes = {
+					34661848245F1653007E135F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3466184C245F1653007E135F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					3466185B245F1656007E135F = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 34661846245F1653007E135F /* Build configuration list for PBXProject "AirWatch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34661842245F1653007E135F;
+			productRefGroup = 3466184A245F1653007E135F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34661848245F1653007E135F /* AirWatch */,
+				3466184C245F1653007E135F /* AirWatch WatchKit App */,
+				3466185B245F1656007E135F /* AirWatch WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34661847245F1653007E135F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3466184B245F1653007E135F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34661856245F1656007E135F /* Assets.xcassets in Resources */,
+				34661854245F1653007E135F /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3466185A245F1656007E135F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34661866245F1656007E135F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34661858245F1656007E135F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34661864245F1656007E135F /* ExtensionDelegate.swift in Sources */,
+				34661862245F1656007E135F /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34661850245F1653007E135F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3466184C245F1653007E135F /* AirWatch WatchKit App */;
+			targetProxy = 3466184F245F1653007E135F /* PBXContainerItemProxy */;
+		};
+		3466185F245F1656007E135F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3466185B245F1656007E135F /* AirWatch WatchKit Extension */;
+			targetProxy = 3466185E245F1656007E135F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34661852245F1653007E135F /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34661853245F1653007E135F /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34661868245F1656007E135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34661869245F1656007E135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3466186B245F1656007E135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				INFOPLIST_FILE = "AirWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		3466186C245F1656007E135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				INFOPLIST_FILE = "AirWatch WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		3466186F245F1656007E135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				IBSC_MODULE = AirWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AirWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Debug;
+		};
+		34661870245F1656007E135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				IBSC_MODULE = AirWatch_WatchKit_Extension;
+				INFOPLIST_FILE = "AirWatch WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.1;
+			};
+			name = Release;
+		};
+		34661873245F1656007E135F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		34661874245F1656007E135F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A8SA62ZA26;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.davidemi.AirWatch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34661846245F1653007E135F /* Build configuration list for PBXProject "AirWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34661868245F1656007E135F /* Debug */,
+				34661869245F1656007E135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3466186A245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3466186B245F1656007E135F /* Debug */,
+				3466186C245F1656007E135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3466186E245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3466186F245F1656007E135F /* Debug */,
+				34661870245F1656007E135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34661872245F1656007E135F /* Build configuration list for PBXNativeTarget "AirWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34661873245F1656007E135F /* Debug */,
+				34661874245F1656007E135F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34661843245F1653007E135F /* Project object */;
+}
