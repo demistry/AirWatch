@@ -61,6 +61,43 @@
             </objects>
             <point key="canvasLocation" x="-116" y="-6"/>
         </scene>
+        <!--CheckIn-->
+        <scene sceneID="EvC-E1-gES">
+            <objects>
+                <controller identifier="CheckIn" id="M9H-40-zVS">
+                    <items>
+                        <group width="1" height="1" alignment="center" contentMode="center" layout="vertical" id="ds7-XR-8ZP">
+                            <items>
+                                <group height="30" alignment="center" spacing="4" id="2hL-1l-IwG">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="MEL" id="k0W-Cf-8U6">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                        <imageView width="24" height="20" alignment="left" verticalAlignment="center" image="Plane" id="sj7-yy-3py">
+                                            <color key="tintColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </imageView>
+                                        <label alignment="right" verticalAlignment="center" text="SFO" id="GQK-3V-N8E">
+                                            <fontDescription key="font" type="system" weight="semibold" pointSize="20"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <button alignment="center" verticalAlignment="center" id="gKo-zu-QY5">
+                                    <group key="contentGroup" width="78" height="78" alignment="left" radius="39" id="kaH-00-T9h">
+                                        <items>
+                                            <label alignment="center" verticalAlignment="center" text="Check In" id="I6O-PP-xaq">
+                                                <fontDescription key="font" type="system" weight="semibold" pointSize="16"/>
+                                            </label>
+                                        </items>
+                                        <color key="backgroundColor" red="0.98039215690000003" green="0.066666666669999999" blue="0.30980392159999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </group>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="126" y="-7"/>
+        </scene>
         <!--Air9JA-->
         <scene sceneID="Yco-C6-4iJ">
             <objects>
