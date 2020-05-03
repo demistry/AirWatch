@@ -1,106 +1,106 @@
 [
   {
-    "origin": "ABA",
-    "destination": "SFO",
-    "number": "AA100",
+    "origin": "ABJ",
+    "destination": "PH",
+    "number": "NG100",
     "delayed": "no",
     "gate": "1A"
   },
   {
-    "origin": "ABA",
-    "destination": "JFK",
-    "number": "AA101",
+    "origin": "LAG",
+    "destination": "BEN",
+    "number": "NG101",
     "delayed": "yes",
     "gate": "1B"
   },
   {
-    "origin": "ABA",
-    "destination": "LAS",
-    "number": "AA102",
+    "origin": "CAL",
+    "destination": "KAD",
+    "number": "NG102",
     "delayed": "no",
     "gate": "1C"
   },
   {
-    "origin": "ABA",
-    "destination": "IAD",
-    "number": "AA103",
+    "origin": "IBA",
+    "destination": "LAG",
+    "number": "NG103",
     "delayed": "no",
     "gate": "1D"
   },
   {
-    "origin": "ABA",
-    "destination": "BCN",
-    "number": "AA104",
+    "origin": "LAG",
+    "destination": "ABJ",
+    "number": "NG104",
     "delayed": "no",
     "gate": "2A"
   },
   {
-    "origin": "ABA",
-    "destination": "SYD",
-    "number": "AA105",
+    "origin": "ABJ",
+    "destination": "LAG",
+    "number": "NG105",
     "delayed": "yes",
     "gate": "2B"
   },
   {
-    "origin": "ABA",
-    "destination": "CDG",
-    "number": "AA106",
+    "origin": "LAG",
+    "destination": "PH",
+    "number": "NG106",
     "delayed": "no",
     "gate": "2B"
   },
   {
-    "origin": "ABA",
-    "destination": "PER",
-    "number": "AA107",
+    "origin": "CAL",
+    "destination": "PH",
+    "number": "NG107",
     "delayed": "no",
     "gate": "2C"
   },
   {
-    "origin": "ABA",
-    "destination": "DXB",
-    "number": "AA108",
+    "origin": "BEN",
+    "destination": "IBA",
+    "number": "NG108",
     "delayed": "no",
     "gate": "2D"
   },
   {
-    "origin": "ABA",
-    "destination": "HND",
-    "number": "AA109",
+    "origin": "IMO",
+    "destination": "JOS",
+    "number": "NG109",
     "delayed": "no",
     "gate": "3A"
   },
   {
-    "origin": "ABA",
-    "destination": "HKG",
-    "number": "AA110",
+    "origin": "OND",
+    "destination": "LAG",
+    "number": "NG110",
     "delayed": "yes",
     "gate": "3B"
   },
   {
     "origin": "ABA",
-    "destination": "SIN",
-    "number": "AA111",
+    "destination": "PH",
+    "number": "NG111",
     "delayed": "no",
     "gate": "3C"
   },
   {
-    "origin": "ABA",
-    "destination": "MAD",
-    "number": "AA112",
+    "origin": "LAG",
+    "destination": "OND",
+    "number": "NG112",
     "delayed": "no",
     "gate": "3D"
   },
   {
-    "origin": "ABA",
-    "destination": "KUL",
-    "number": "AA113",
+    "origin": "BEN",
+    "destination": "ASA",
+    "number": "NG113",
     "delayed": "no",
     "gate": "4A"
   },
   {
-    "origin": "ABA",
-    "destination": "LHR",
-    "number": "AA114",
+    "origin": "ASA",
+    "destination": "BEN",
+    "number": "NG114",
     "delayed": "yes",
     "gate": "4B"
   }

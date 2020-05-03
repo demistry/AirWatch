@@ -59,12 +59,12 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-57" y="-5"/>
+            <point key="canvasLocation" x="-116" y="-6"/>
         </scene>
-        <!--AirWatch-->
+        <!--Air9JA-->
         <scene sceneID="Yco-C6-4iJ">
             <objects>
-                <controller identifier="Schedule" title="AirWatch" id="Mzs-OZ-rrr" customClass="ScheduleInterfaceController" customModule="AirWatch_WatchKit_Extension">
+                <controller identifier="Schedule" title="Air9JA" id="Mzs-OZ-rrr" customClass="ScheduleInterfaceController" customModule="AirWatch_WatchKit_Extension">
                     <items>
                         <table alignment="left" id="SRh-b8-jA5">
                             <items>
