@@ -17,6 +17,8 @@
 		34661879245F18C8007E135F /* Flights.json in Resources */ = {isa = PBXBuildFile; fileRef = 34661876245F1809007E135F /* Flights.json */; };
 		3466187A245F18E0007E135F /* Flight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34661877245F1809007E135F /* Flight.swift */; };
 		3466187C245F1D90007E135F /* FlightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466187B245F1D90007E135F /* FlightInterfaceController.swift */; };
+		3466187E245F229F007E135F /* ScheduleInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466187D245F229F007E135F /* ScheduleInterfaceController.swift */; };
+		34661880245F2355007E135F /* FlightRowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3466187F245F2355007E135F /* FlightRowController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +76,8 @@
 		34661876245F1809007E135F /* Flights.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Flights.json; sourceTree = "<group>"; };
 		34661877245F1809007E135F /* Flight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flight.swift; sourceTree = "<group>"; };
 		3466187B245F1D90007E135F /* FlightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightInterfaceController.swift; sourceTree = "<group>"; };
+		3466187D245F229F007E135F /* ScheduleInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleInterfaceController.swift; sourceTree = "<group>"; };
+		3466187F245F2355007E135F /* FlightRowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightRowController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +128,8 @@
 				34661865245F1656007E135F /* Assets.xcassets */,
 				34661867245F1656007E135F /* Info.plist */,
 				3466187B245F1D90007E135F /* FlightInterfaceController.swift */,
+				3466187D245F229F007E135F /* ScheduleInterfaceController.swift */,
+				3466187F245F2355007E135F /* FlightRowController.swift */,
 			);
 			path = "AirWatch WatchKit Extension";
 			sourceTree = "<group>";
@@ -268,6 +274,8 @@
 			files = (
 				34661864245F1656007E135F /* ExtensionDelegate.swift in Sources */,
 				3466187C245F1D90007E135F /* FlightInterfaceController.swift in Sources */,
+				3466187E245F229F007E135F /* ScheduleInterfaceController.swift in Sources */,
+				34661880245F2355007E135F /* FlightRowController.swift in Sources */,
 				3466187A245F18E0007E135F /* Flight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
