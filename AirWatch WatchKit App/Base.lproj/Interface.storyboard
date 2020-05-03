@@ -68,7 +68,7 @@
                     <items>
                         <table alignment="left" id="SRh-b8-jA5">
                             <items>
-                                <tableRow identifier="FlightRow" id="2nW-NS-U5i">
+                                <tableRow identifier="FlightRow" id="2nW-NS-U5i" customClass="FlightRowController" customModule="AirWatch_WatchKit_Extension">
                                     <group key="rootItem" width="1" height="0.0" alignment="left" spacing="6" id="iuA-2q-coR">
                                         <items>
                                             <separator height="1" heightAdjustment="-4" alignment="left" verticalAlignment="center" id="vPN-A1-IGI">
@@ -105,6 +105,14 @@
                                             </group>
                                         </items>
                                     </group>
+                                    <connections>
+                                        <outlet property="destinationLabel" destination="MuA-dm-HDk" id="b8c-7O-3r2"/>
+                                        <outlet property="flightNumberLabel" destination="ydM-L2-Ax6" id="CVT-Ht-tXL"/>
+                                        <outlet property="originLabel" destination="55O-I6-Ckl" id="wdW-Vb-GXv"/>
+                                        <outlet property="planeImage" destination="fcR-n2-1ia" id="Iwo-Rh-Y1j"/>
+                                        <outlet property="separator" destination="vPN-A1-IGI" id="eTI-H3-cEO"/>
+                                        <outlet property="statusLabel" destination="SEC-Qi-h77" id="Qta-eY-7e9"/>
+                                    </connections>
                                 </tableRow>
                             </items>
                         </table>
